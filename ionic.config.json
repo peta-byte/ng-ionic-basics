@@ -1,0 +1,7 @@
+{
+  "name": "ng-ionic-basics",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
