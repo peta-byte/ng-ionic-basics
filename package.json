@@ -6,6 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:ionic": "ionic serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -18,7 +19,9 @@
     "@angular/forms": "^14.0.0",
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
+    "@angular/pwa": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@angular/service-worker": "^14.0.0",
     "@capacitor/app": "4.0.1",
     "@capacitor/core": "4.3.0",
     "@capacitor/haptics": "4.0.1",

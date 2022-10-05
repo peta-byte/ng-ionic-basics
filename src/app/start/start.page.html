@@ -1,0 +1,54 @@
+<ion-grid fixed>
+  <ion-row class="ion-align-items-center ion-justify-content-center">
+    <ion-col size-sm="12" size-lg="8">
+        <div class="title">
+          <ion-text color="primary">
+            <h1>Coffee vs Tea</h1>
+            <h3>Which is better for breakfast?</h3>
+          </ion-text>
+        </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="ion-align-items-center ion-justify-content-center">
+    <ion-col size-sm="12" size-lg="8" class="ion-text-center">
+      <ion-row class="ion-align-items-center ion-justify-content-center">
+        <ion-col>
+          <ion-text>
+            <h2><u>Timer</u></h2>
+          </ion-text>
+          <ion-text>
+            <p>You have <b>3 minutes</b> to present your view</p>
+          </ion-text>
+          <ion-card color="light">
+            <ion-card-content class="timer">
+              <ion-text>
+                <h1>3:00</h1>
+              </ion-text>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+  </ion-row>
+  <ion-row class="ion-align-items-center ion-justify-content-center">
+    <ion-col size-sm="4">
+      <div class="button">
+        <ion-button>Start</ion-button>
+      </div>
+    </ion-col>
+    <ion-col size-sm="4">
+      <div class="button">
+        <ion-button>Stop</ion-button>
+      </div>
+    </ion-col>
+  </ion-row>
+  <ion-row class="ion-align-items-center ion-justify-content-center">
+    <ion-col size-sm="12" size-lg="8">
+      <ion-text color="primary" class="ion-text-center">
+        <p>Add 10 points for each meaningful thought or deduct 10 for "better luck next time".</p>
+        <p>The maximum points possible are 100.<i> Good luck!</i></p>
+      </ion-text>
+      <ion-button [routerLink]="['/tally']">Tally</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>

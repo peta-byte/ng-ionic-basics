@@ -1,0 +1,12 @@
+.proposition, .opposition {
+  ion-card-content {
+    min-height: 300px;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+

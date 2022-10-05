@@ -1,20 +1,41 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+<ion-grid fixed>
+  <ion-row class="ion-align-items-center ion-justify-content-center container">
+    <ion-col size-sm="12" size-lg="8">
+      <ion-card color="light">
+        <ion-card-content>
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <ion-item>
+                  <ion-label position="stacked">Proposition Stand</ion-label>
+                  <ion-input type="text">Coffee</ion-input>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-item>
+                  <ion-label position="stacked">Opposition Stand</ion-label>
+                  <ion-input type="text">Tea</ion-input>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-item>
+                  <ion-label position="stacked">Motion Description</ion-label>
+                  <ion-input type="text">Which is better for breakfast?</ion-input>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-button [routerLink]="['/start']">Submit</ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>

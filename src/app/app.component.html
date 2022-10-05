@@ -1,3 +1,21 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-header>
+    <ion-toolbar color="primary" mode="ios">
+      <ion-button slot="start" href="/home">
+        <ion-icon slot="icon-only" name="chatbubbles"></ion-icon>
+      </ion-button>
+      <ion-title>Dynamic Debate</ion-title>
+      <ion-button slot="end" href="https://github.com/peta-byte">
+        <ion-icon slot="icon-only" name="logo-github"></ion-icon>
+      </ion-button>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-router-outlet></ion-router-outlet>
+  </ion-content>
+  <ion-footer>
+    <ion-toolbar color="primary" mode="ios">
+      <ion-title>By Brenda Chepkorir © 2022</ion-title>
+    </ion-toolbar>
+  </ion-footer>
 </ion-app>

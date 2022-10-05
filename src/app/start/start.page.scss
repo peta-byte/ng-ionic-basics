@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.timer {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    margin: auto;
+    height: 100%;
+  }
+}
