@@ -2,6 +2,9 @@
   "name": "ng-ionic-basics",
   "version": "0.0.1",
   "author": "Ionic Framework",
+  "engines": {
+    "node": "16.17.1"
+  },
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
