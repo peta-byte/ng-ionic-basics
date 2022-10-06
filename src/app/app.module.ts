@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { APP_BASE_HREF } from '@angular/common';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,7 +18,10 @@ import { environment } from '../environments/environment';
   // or after 30 seconds (whichever comes first).
   registrationStrategy: 'registerWhenStable:30000'
 })],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  providers: [
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
+    {provide: APP_BASE_HREF, useValue: '/dynamic-debate/'}
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
