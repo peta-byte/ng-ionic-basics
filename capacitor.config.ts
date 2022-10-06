@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'ng-ionic-basics',
+  appName: 'dynamic debate',
   webDir: 'www',
   bundledWebRuntime: false
 };
